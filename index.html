@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header of the main web page -->
+    <header>
+        <div class="navBar">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="https://github.com/HR199812" target="_blank">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div>
+        <img style="width:100%; height:90vh" src="./Images/ECom.png" alt="">
+    </div>
+
+    <h2 style="padding: 1rem; text-shadow: 0 2px 4px; font-size: 3rem;">Products</h2>
+
+
+    <!-- Main Container to hold all the products -->
+    <div class="container">
+
+
+        <!-- Product 1 -->
+
+        <div class="card">
+            <div class="product">
+                <div class="circle"></div>
+                <img src="./Images/adidas.png" alt="product">
+            </div>
+            <div class="info">
+                <h1 class="title">Product</h1>
+                <h3>Product Description</h3>
+                <div class="categories">
+                    <button>39</button>
+                    <button>40</button>
+                    <button class="active">41</button>
+                    <button>42</button>
+                </div>
+                <div class="purchase">
+                    <button onclick="loadProduct()">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="card1">
+            <div class="product1">
+                <div class="circle1"></div>
+                <img src="./Images/LV-Purse.png" alt="product">
+            </div>
+            <div class="info1">
+                <h1 class="title1">Product</h1>
+                <h3>Product Description</h3>
+                <div class="purchase1">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Product 3 -->
+
+        <div class="card2">
+            <div class="product2">
+                <div class="circle2"></div>
+                <img src="./Images/bicycle-mtb.png" alt="product">
+            </div>
+            <div class="info2">
+                <h1 class="title2">Product</h1>
+                <h3>Product Description</h3>
+                <div class="purchase2">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer for the Website -->
+    <footer id="footer">
+        <div style="display: inline-block; width: 100%;" class="footer">
+            <div style="float: left;">
+                <p style="color: white;">&#169; Copyright 2021</p>
+            </div>
+            <div style="float: right;">
+                <div style="display: inline-block;">
+                    <p style="color: white; font-size: 1.5rem;">Contact Me ==> &nbsp;&nbsp;&nbsp;</p>
+                </div>
+                <div style="display: inline-block;">
+                    <a href="https://github.com/HR199812" target="_blank" class="fa fa-github"></a>
+
+                </div>
+                <div style="margin: 0 0 0 1rem; display: inline-block;">
+                    <a href="#" class="fa fa-instagram"></a>
+
+                </div>
+                <div style="margin: 0 0 0 1rem; display: inline-block;">
+                    <a href="mailto: hritwik72@gmail.com" class="fa fa-google"></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

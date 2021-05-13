@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+
+    transform-style: preserve-3d;
+    height: 90vh;
+    width: 28rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2),  0 0 50px rgba(0, 0, 0, 0.2);
+}
+.sneaker{
+    transition: all 0.75s ease-out;
+
+    margin-top: 1rem;
+    min-height: 30vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sneaker img{
+    width: 20rem;
+    z-index: 2;  
+    transition: all 0.75s ease-out;
+
+}
+
+.circle{
+    margin-top: 1rem;
+    width: 12rem;
+    height: 12rem;
+    background: linear-gradient(
+        to right,
+        rgba(245, 70, 66, 0.75),
+        rgba(8, 83, 156, 0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.info h1{
+    transition: all 0.75s ease-out;
+
+    margin-top: 2rem;
+    font-size: 3rem;  
+    transition: all 0.75s ease-out;
+
+
+}
+
+.info h3{
+    transition: all 0.75s ease-out;
+
+    font-size: 1.3 rem;
+    padding: 2rem 0rem;
+    color: #585858;
+    font-weight: lighter;  
+    transition: all 0.75s ease-out;
+
+}
+
+.sizes{
+    transition: all 0.75s ease-out;
+
+    display: flex;
+    justify-content: space-between;  
+    transition: all 0.75s ease-out;
+
+}
+
+.sizes button{
+    padding: 0.5rem 1.5rem; 
+    background: none;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+
+button.active{
+    background: #585858;
+    color: white;
+}
+
+.purchase{
+    margin-top: 2rem;      
+    transition: all 0.75s ease-out;
+
+}
+
+.purchase button{
+    transition: all 0.75s ease-out;
+
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #f54642;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+
+}
